@@ -18,4 +18,5 @@
 
 替换Ubuntu系统下的/etc/apt/sources.list
 
-- [阿里源](/etc/apt/source.list.ali)
+- [阿里源](etc/apt/sources.list.ali)
+
