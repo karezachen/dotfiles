@@ -7,12 +7,18 @@ backup=$repo/backup
 
 ## vim
 
-mv ~/.vim $backup/.vim
-mv ~/.vimrc $backup/.vimrc
+if [ -d "~/.vim" ];then
+    mv ~/.vim $backup/.vim
+fi
+if [ -f "~/.vimrc" ];then
+    mv ~/.vimrc $backup/.vimrc
+fi
 ln -s ~/.dotfiles/.vimrc ~/.vimrc
-ln -s ~/.ditfiles/.vim ~/.vim
+cp -r $repo/.vim ~/.vim
 
 ## zsh
 
-mv ~/.zshrc $backup/.zshrc
+if [ -f "~/.zshrc" ];then
+    mv ~/.zshrc $backup/.zshrc
+fi
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
