@@ -1,22 +1,11 @@
 # dotfiles
 
-## 介绍
+## 快速使用
 
-开发过程中用到的一些配置文件
+你可以执行下列命令，快速使用我的`dotfiles`,前提是你明白这会对你的机器造成什么修改。
 
-## maven
-
-### 远程仓库
-
-替换用户目录下.m2/settings.xml
-
-- [阿里maven仓库](.m2/settings.xml)
-
-## ubuntu
-
-### apt源
-
-替换Ubuntu系统下的/etc/apt/sources.list
-
-- [阿里源](etc/apt/sources.list.ali)
-
+```shell
+git clone https://github.com/karezachen/dotfiles.git ~/.dotfiles
+cd ~/.dotfiles
+./install.sh
+```
