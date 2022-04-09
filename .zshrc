@@ -101,3 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+# 设置 nvim 为默认编辑器
+alias v="nvim"
+alias vi="nvim"
+alias vim="nvim"
