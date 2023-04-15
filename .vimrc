@@ -12,3 +12,6 @@ set tabstop=4
 
 " 在使用Tab键时，将其替换成4个空格
 set expandtab
+
+" 将BackSpace键设置为默认删除键
+set backspace=indent,eol,start
