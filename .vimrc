@@ -15,3 +15,6 @@ set expandtab
 
 " 将BackSpace键设置为默认删除键
 set backspace=indent,eol,start
+
+" 文件类型
+filetype plugin indent on
